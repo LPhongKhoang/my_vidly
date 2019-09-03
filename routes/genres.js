@@ -38,8 +38,8 @@ router.put("/:id", async (req, res) => {
   const { error } = validateGenre(req.body);
   if (error) return res.status(400).send(error.details[0].message);
   // update directly to DB
-  const genre = await Genre.findByIdAndUpdate(req.params.id, {name: req.body.name}, {
-    new: true
+  const genre = await Genre.findByIdAndUpdate(req.params.id, {name: req.body.name}, (_, res)=>{
+    console.log("Update Genre _ res: ", res);
   });
   // Check if no update action is executed
   if (!genre)

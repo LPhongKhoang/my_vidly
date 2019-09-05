@@ -1,14 +1,19 @@
 const express = require("express");
+const Fawn = require("fawn");
+const mongoose = require("mongoose");
 const { Rental, validate } = require("../models/rental");
 const { Customer } = require("../models/customer");
 const { Movie } = require("../models/movie");
 
-// Create Router 
+// Init Fawn with mongoose connect
+Fawn.init(mongoose);
+
+// Create Router
 const router = express.Router();
 
 // handle http request
 router.get("/", async (req, res) => {
-  const rentals = await Rental.find().sort('-dateOut');
+  const rentals = await Rental.find().sort("-dateOut");
   res.send(rentals);
 });
 
@@ -17,14 +22,17 @@ router.post("/", async (req, res) => {
   if (error) return res.status(400).send(error.details[0].message);
   // const { customerId, movieId } = req.body
   // find customer
-  const customer = Customer.findById(req.body.customerId);
-  if(!customer) return res.status(400).send("Invalid customer");
+  const customer = await Customer.findById(req.body.customerId);
+  if (!customer) return res.status(400).send("Invalid customer");
 
-  const movie = Custtomer.findById(req.body.movieId);
-  if(!movie) return res.status(400).send("Invalid movie");
-  if(movie.numberInStock <= 0) return res.status(400).send("Movie not in stock");
+  const movie = await Movie.findById(req.body.movieId);
+  if (!movie) return res.status(400).send("Invalid movie");
+  console.log("customer: ", customer.name);
+  console.log("movie: ", movie.title);
+  if (movie.numberInStock <= 0)
+    return res.status(400).send("Movie not in stock");
 
-  let rental = new Rental({
+  const rental = new Rental({
     customer: {
       _id: customer._id,
       name: customer.name,
@@ -38,15 +46,22 @@ router.post("/", async (req, res) => {
     }
   });
 
-  // save1: rental
-  rental = await rental.save();
-  // update numberInStock of movie
-  movie.numberInStock -= 1; 
-  // save2: movie
-  movie.save();
-
-  res.send(rental);
-  
+  try {
+    Fawn.Task()
+      .save("rentals", rental)
+      .update(
+        "movies",
+        { _id: movie._id },
+        {
+          $inc: { numberInStock: -1 }
+        }
+      )
+      .run();
+    console.log("Transaction: {Save rental, Update movie } done.")
+    res.send(rental);
+  } catch (ex) {
+    res.status(500).send("Something went wrong");
+  }
 });
 
 // router.put("/:id", async (req, res) => {
@@ -62,20 +77,18 @@ router.post("/", async (req, res) => {
 //   res.send(genre);
 // });
 
-// router.delete("/:id", async (req, res) => {
-//   const genre = await Genre.findByIdAndRemove(req.params.id);
-//   if (!genre)
-//     return res.status(404).send("The genre with the given Id was not found");
+router.delete("/:id", async (req, res) => {
+  const rental = await Rental.findByIdAndRemove(req.params.id);
+  if (!rental)
+    return res.status(404).send("The rental with the given Id was not found");
 
-//   res.send(genre);
-// });
+  res.send(dailyRentalRate);
+});
 
-
-// router.get("/:id", async (req, res) => {
-//   const genre = await Genre.findById(req.params.id);
-//   if(!genre) return res.status(404).send("The genre with the given Id was not found");
-//   res.send(genre);
-// });
-
+router.get("/:id", async (req, res) => {
+  const rental = await Rental.findById(req.params.id);
+  if(!rental) return res.status(404).send("The rental with the given Id was not found");
+  res.send(rental);
+});
 
 module.exports = router;

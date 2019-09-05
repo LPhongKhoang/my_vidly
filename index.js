@@ -5,6 +5,7 @@ const app = express();
 // Routers
 const genresRouter = require("./routes/genres");
 const customesRouter = require("./routes/customers");
+const movieRouter = require("./routes/movies");
 // Setup connection to MongoDB
 mongoose.connect('mongodb://localhost/my_vidly', {
   useNewUrlParser: true,
@@ -18,6 +19,7 @@ mongoose.connect('mongodb://localhost/my_vidly', {
 app.use(express.json());
 app.use("/api/genres", genresRouter);
 app.use("/api/customers", customesRouter);
+app.use("/api/movies", movieRouter);
 
 
 // get PORT as environment variable or default

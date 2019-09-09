@@ -1,8 +1,8 @@
+const moment = require("moment");
 const Joi = require("joi");
 const mongoose = require("mongoose");
 
-
-const Rental = mongoose.model('Rental', new mongoose.Schema({
+const rentalSchema = new mongoose.Schema({
   customer: {
     type: new mongoose.Schema({
       name: {
@@ -54,7 +54,25 @@ const Rental = mongoose.model('Rental', new mongoose.Schema({
     min: 0
   }
 
-}));
+});
+
+// Add static method to this Mode (Class)
+rentalSchema.statics.lookUp = function(customerId, movieId) {
+  return Rental.findOne({
+    "customer._id": customerId,
+    "movie._id": movieId
+  });
+}
+
+// Add method to Instance of the Class
+rentalSchema.methods.return = function() {
+  this.dateReturned = new Date();
+  // Calculate the rentalFee
+  const rentalDays = moment().diff(this.dateOut, 'days');
+  this.rentalFee = rentalDays * this.movie.dailyRentalRate;
+}
+
+const Rental = mongoose.model('Rental', rentalSchema);
 
 function validateRental(rental) {
   const schema = {

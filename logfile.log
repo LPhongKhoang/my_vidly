@@ -1,0 +1,295 @@
+{"message":"Unexpected token } in JSON at position 19","stack":"SyntaxError: Unexpected token } in JSON at position 19\n    at JSON.parse (<anonymous>)\n    at parse (E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","expose":true,"statusCode":400,"status":400,"body":"{\n\t\"name\": \"long\",\n}","type":"entity.parse.failed","level":"error","timestamp":"2019-09-07T02:37:23.325Z"}
+{"message":"Unexpected token } in JSON at position 19","stack":"SyntaxError: Unexpected token } in JSON at position 19\n    at JSON.parse (<anonymous>)\n    at parse (E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","expose":true,"statusCode":400,"status":400,"body":"{\n\t\"name\": \"long\",\n}","type":"entity.parse.failed","level":"error","timestamp":"2019-09-07T02:52:51.910Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T03:36:31.637Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T03:43:15.193Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T03:46:24.943Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T03:49:19.761Z"}
+{"message":"Unexpected token } in JSON at position 22","stack":"SyntaxError: Unexpected token } in JSON at position 22\n    at JSON.parse (<anonymous>)\n    at parse (E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","expose":true,"statusCode":400,"status":400,"body":"{\n\t\"name\": \"Romance\",\n}","type":"entity.parse.failed","level":"error","timestamp":"2019-09-07T03:50:04.264Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T03:53:04.154Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T03:53:45.261Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T03:56:44.361Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T03:57:19.475Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-07T03:57:53.281Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T03:57:55.330Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-07T05:32:11.390Z"}
+{"level":"info","message":"Connected to MongoDb...","timestamp":"2019-09-07T05:32:13.439Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T04:50:12.745Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly...","timestamp":"2019-09-08T04:50:14.818Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:03:28.740Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:03:30.790Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:03:55.401Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:03:57.437Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:04:26.786Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:04:28.839Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:05:13.334Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:05:15.388Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:08:15.402Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:08:17.457Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:09:36.400Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:09:38.455Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:14:55.991Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:14:58.033Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:17:28.297Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:17:30.349Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:19:56.783Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:19:58.867Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:30:10.096Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:30:12.156Z"}
+{"message":"Cast to ObjectId failed for value \"134a33\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"134a33\" at path \"_id\" for model \"Genre\"\n    at new CastError (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\error\\cast.js:29:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\schema\\objectid.js:244:11)\n    at ObjectId.Object.<anonymous>.SchemaType.applySetters (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\schematype.js:948:12)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\schematype.js:1362:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQuery (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\schematype.js:1352:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\schematype.js:1331:15)\n    at cast (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\cast.js:307:32)\n    at model.Query.Object.<anonymous>.Query.cast (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\query.js:4616:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\query.js:1798:10)\n    at model.Query.<anonymous> (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\query.js:2053:8)\n    at model.Query._wrappedThunk [as _findOne] (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:16:8)\n    at process.nextTick (E:\\LearnNode.JS\\my_vidly\\node_modules\\kareem\\index.js:369:33)\n    at process._tickCallback (internal/process/next_tick.js:61:11)","name":"CastError","stringValue":"\"134a33\"","kind":"ObjectId","value":"134a33","path":"_id","level":"error","timestamp":"2019-09-08T06:30:14.237Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:31:32.188Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:31:34.241Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:34:32.425Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:34:34.459Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:36:05.604Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:36:07.653Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T06:53:08.966Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T06:53:11.023Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T07:16:41.012Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T07:16:43.058Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T07:17:08.364Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T07:17:10.423Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T07:17:39.110Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T07:17:41.171Z"}
+{"message":"Genre validation failed: name: Path `name` (`abcd`) is shorter than the minimum allowed length (5).","errors":{"name":{"message":"Path `name` (`abcd`) is shorter than the minimum allowed length (5).","name":"ValidatorError","properties":{"message":"Path `name` (`abcd`) is shorter than the minimum allowed length (5).","type":"minlength","minlength":5,"path":"name","value":"abcd"},"kind":"minlength","path":"name","value":"abcd"}},"_message":"Genre validation failed","stack":"ValidationError: Genre validation failed: name: Path `name` (`abcd`) is shorter than the minimum allowed length (5).\n    at new ValidationError (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\error\\validation.js:30:11)\n    at model.Object.<anonymous>.Document.invalidate (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\document.js:2333:32)\n    at p.doValidate.skipSchemaValidators (E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\document.js:2182:17)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\mongoose\\lib\\schematype.js:1037:9\n    at process._tickCallback (internal/process/next_tick.js:61:11)","name":"ValidationError","level":"error","timestamp":"2019-09-08T07:17:43.283Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T07:18:41.165Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T07:18:43.216Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T07:21:17.141Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T07:21:19.185Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T07:27:04.922Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T07:27:06.980Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T07:28:15.790Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T07:28:17.848Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T07:29:11.238Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T07:29:13.301Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T07:55:57.244Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T07:55:59.281Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:24:18.372Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:24:20.405Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:30:23.931Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:30:24.392Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:30:25.985Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:30:26.510Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:33:06.298Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:33:06.798Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:33:08.362Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:33:08.853Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:34:34.662Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:34:35.174Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:34:36.723Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:34:37.234Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:35:42.626Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:35:42.643Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:35:44.655Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:35:44.684Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:39:00.880Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:39:01.588Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:39:02.933Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:39:03.632Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:39:40.440Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:39:40.619Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:39:42.488Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:39:42.657Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:41:04.677Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:41:04.802Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:41:06.729Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:41:06.853Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:42:54.711Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:42:55.195Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:42:56.743Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:42:57.250Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:46:08.896Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:46:09.440Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:46:10.948Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:46:11.494Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:51:27.035Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:51:27.032Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:51:29.075Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:51:29.078Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:54:05.071Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:54:07.119Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:57:15.428Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:57:17.486Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:58:04.647Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:58:06.696Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:58:30.430Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:58:30.493Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:58:32.471Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:58:32.528Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:58:58.477Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T08:58:59.078Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:59:00.517Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T08:59:01.149Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T09:08:57.440Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T09:08:57.519Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T09:08:59.519Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T09:08:59.556Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T09:12:56.151Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T09:12:56.633Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T09:12:58.206Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T09:12:58.691Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T09:15:34.103Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T09:15:34.807Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T09:15:36.160Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T09:15:36.870Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T12:45:06.872Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T12:45:06.870Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T12:45:08.929Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T12:45:08.934Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T14:41:13.160Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T14:41:15.214Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T14:41:53.382Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T14:41:55.442Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T14:42:37.137Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T14:42:39.198Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T14:51:31.832Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T14:51:32.511Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T14:51:33.894Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T14:51:34.567Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T14:52:02.675Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T14:52:02.798Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T14:52:02.909Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T14:52:04.739Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T14:52:04.840Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T14:52:04.954Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:04:49.487Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:04:51.539Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:06:21.482Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:06:23.549Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:08:07.005Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:08:09.062Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:10:10.367Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:10:12.423Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:11:28.790Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:11:30.840Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:19:05.292Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:19:07.352Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:22:44.987Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:22:47.046Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:35:47.398Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:35:49.462Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:37:44.877Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:37:46.935Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:42:02.810Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:42:04.872Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:45:59.941Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:46:02.007Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:46:52.239Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:46:54.300Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:47:57.456Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:47:59.534Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:48:34.433Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:48:36.505Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:49:06.924Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:49:08.980Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:49:40.339Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:49:42.403Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:52:47.605Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:52:49.661Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-08T15:53:16.503Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-08T15:53:18.568Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T07:22:31.009Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T07:22:31.009Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T07:22:31.009Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T07:22:33.079Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T07:22:33.083Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T07:22:33.094Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T09:43:13.252Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T09:43:15.299Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T09:48:09.421Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T09:48:11.481Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T09:49:01.907Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T09:49:03.978Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T09:50:26.967Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T09:50:29.038Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T09:52:03.727Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T09:52:05.794Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T09:54:45.013Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T09:54:47.087Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T09:55:10.695Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T09:55:12.754Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T14:38:30.302Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T14:38:32.367Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T14:38:50.088Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T14:38:52.152Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T14:42:35.420Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T14:42:37.485Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T14:43:24.967Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T14:43:27.031Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T14:47:10.218Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T14:47:12.267Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T14:47:31.361Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T14:47:33.431Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T14:59:01.955Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T14:59:04.015Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T14:59:39.542Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T14:59:41.589Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:01:35.204Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:01:37.263Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:03:03.597Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:03:05.665Z"}
+{"message":"rentalInDb is not defined","stack":"ReferenceError: rentalInDb is not defined\n    at rentalInDb (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:27:31)","level":"error","timestamp":"2019-09-09T15:03:07.811Z"}
+{"message":"rentalInDb is not defined","stack":"ReferenceError: rentalInDb is not defined\n    at rentalInDb (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:27:31)","level":"error","timestamp":"2019-09-09T15:03:07.826Z"}
+{"message":"rentalInDb is not defined","stack":"ReferenceError: rentalInDb is not defined\n    at rentalInDb (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:27:31)","level":"error","timestamp":"2019-09-09T15:03:07.842Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:04:02.621Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:04:04.679Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:15:08.920Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:15:10.989Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:18:47.573Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:18:49.648Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:35:21.969Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:35:24.039Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:35:45.389Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:35:47.445Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:36:39.383Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:36:41.452Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:41:39.636Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:41:41.695Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:43:12.399Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:43:14.454Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T15:43:37.500Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T15:43:39.561Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:05:32.913Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:05:34.973Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:05:57.882Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:05:59.928Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:06:33.318Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:06:35.380Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:09:46.844Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:09:48.907Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:18:08.975Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:18:11.030Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:18:43.411Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:18:45.475Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:19:52.010Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:19:54.068Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:21:13.097Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:21:15.166Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:42:11.698Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:42:13.752Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:42:15.930Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:42:15.952Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:42:15.981Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:42:16.002Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:42:16.024Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:45:08.760Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:45:10.825Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:45:13.000Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:45:13.022Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:45:13.046Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:45:13.063Z"}
+{"message":"rental.return is not a function","stack":"TypeError: rental.return is not a function\n    at Object.<anonymous>.router.post (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:24:3)","level":"error","timestamp":"2019-09-09T16:45:13.086Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:46:23.059Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:46:25.116Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:48:05.448Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:48:07.502Z"}
+{"message":"Rental.lookeUp is not a function","stack":"TypeError: Rental.lookeUp is not a function\n    at lookeUp (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:14:31)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (E:\\LearnNode.JS\\my_vidly\\middlerware\\auth.js:15:5)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","level":"error","timestamp":"2019-09-09T16:48:09.643Z"}
+{"message":"Rental.lookeUp is not a function","stack":"TypeError: Rental.lookeUp is not a function\n    at lookeUp (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:14:31)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (E:\\LearnNode.JS\\my_vidly\\middlerware\\auth.js:15:5)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","level":"error","timestamp":"2019-09-09T16:48:09.664Z"}
+{"message":"Rental.lookeUp is not a function","stack":"TypeError: Rental.lookeUp is not a function\n    at lookeUp (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:14:31)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (E:\\LearnNode.JS\\my_vidly\\middlerware\\auth.js:15:5)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","level":"error","timestamp":"2019-09-09T16:48:09.681Z"}
+{"message":"Rental.lookeUp is not a function","stack":"TypeError: Rental.lookeUp is not a function\n    at lookeUp (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:14:31)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (E:\\LearnNode.JS\\my_vidly\\middlerware\\auth.js:15:5)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","level":"error","timestamp":"2019-09-09T16:48:09.702Z"}
+{"message":"Rental.lookeUp is not a function","stack":"TypeError: Rental.lookeUp is not a function\n    at lookeUp (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:14:31)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (E:\\LearnNode.JS\\my_vidly\\middlerware\\auth.js:15:5)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","level":"error","timestamp":"2019-09-09T16:48:09.735Z"}
+{"message":"Rental.lookeUp is not a function","stack":"TypeError: Rental.lookeUp is not a function\n    at lookeUp (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:14:31)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (E:\\LearnNode.JS\\my_vidly\\middlerware\\auth.js:15:5)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","level":"error","timestamp":"2019-09-09T16:48:09.757Z"}
+{"message":"Rental.lookeUp is not a function","stack":"TypeError: Rental.lookeUp is not a function\n    at lookeUp (E:\\LearnNode.JS\\my_vidly\\routes\\returns.js:14:31)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (E:\\LearnNode.JS\\my_vidly\\middlerware\\auth.js:15:5)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (E:\\LearnNode.JS\\my_vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\LearnNode.JS\\my_vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\LearnNode.JS\\my_vidly\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\LearnNode.JS\\my_vidly\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","level":"error","timestamp":"2019-09-09T16:48:09.777Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:48:21.988Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:48:24.053Z"}
+{"level":"info","message":"Server started at port 3000","timestamp":"2019-09-09T16:49:23.166Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly_test...","timestamp":"2019-09-09T16:49:25.204Z"}

@@ -4,7 +4,7 @@
   "description": "my first build back end server using NodeJS with Mosh",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --verbose"
   },
   "author": "Phong Khoang",
   "license": "ISC",
@@ -12,11 +12,19 @@
     "bcrypt": "^3.0.6",
     "config": "^3.2.2",
     "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
     "fawn": "^2.1.5",
     "joi": "^14.3.1",
     "joi-objectid": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
-    "mongoose": "^5.6.11"
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.11",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
   }
 }

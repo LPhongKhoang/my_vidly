@@ -15,7 +15,7 @@ module.exports = function(req, res, next) {
     next();
   }catch(e){
     // if token is invalid => jwt.verify throw an exception
-    return res.status(401).send("Access denied. Invalid token.");
+    return res.status(400).send("Access denied. Invalid token.");
   }
 
 

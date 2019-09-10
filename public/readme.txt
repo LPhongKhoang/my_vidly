@@ -1,3 +1,8 @@
+0. ========== Set up MongoDB ======
+1. download mongodb
+2. install -> set the system variable (path) -> run ">> mongod"
+3. Make sure: C:/data/db folder is created (By default, mongodb store data in that folder)
+
 I. === Authentication and Authorization ========
 1. Create User model
 2. Create User api
@@ -126,5 +131,45 @@ VII. Pratice TDD
       - Tc9: Increase movie's number in stock
       - Tc10: Return the rental 
     + Write initial state of Database in returns.test.js (or populate DB)
+    + Use "moment" lib to work with date time
+IX. Deployment
+  1. Two options for deployment:
+    + Deploy use PaaS (Platform as a service provider): 
+      - Heroku, Google Cloud Platform, AWS, Azure 
+      ==> Great option if you don't want to be involved with infrastructure
+        - Server, Load balancer, Reverse proxy or Restarting the app when crash
+    + Docker: want to control your app deployment (deploy to your own server)
+X. Deploy to Heroku
+    1. Prepare code for production
+      + Use "helmet" lib to ... middleware bla bla
+      + Use "compression" lib to compress http req, res
+    2. Getting started with Heroku: download, use ">> heroku login" to login in cli
+    3. Preparing the app for deployment
+      + package > "scripts" > "start"="node index.js"
+      + define version of node:
+        package > "engines" > "node"="x.y.z"
+      + Must init git repo (just need a local) for this project
+    4. Deploying to Heroku
+      + in cmd of the project (local): ">> heroku create [unique_app_name]" for creating an app on Heroku and git remote   
+      + push code to heroku remote repo: ">> git push heroku master"
+    5. Fix common and usual problems
+      + Use ">> heroku logs" to see stack trace of errors 
+      + Or go to the dashboard on the web heroku to see errors
+      + Or on the web heroku: run console to see file we have logged
+        (More > Run Console > 'bash' > 'ls' > 'cat uncaughtException')
+    6. Setting environment variables in Heroku Server
+      + in cmd of the project (local): ">> heroku config:set my_vidly_jwtSecretKey=xyzblabla
+      + set NODE_ENV for production: ">> heroku config:set NODE_ENV=production"
+      + To see all environment variables: ">> heroku config"
+      + ==> In Heroku Cloud Architecture
+                Server (dyno1, dyno2, ...)
+                These dynos share environment variables
+    7. MongoDB in Cloud:
+      + Web Heroku: "Resources tab -> Find more add-ons btn ->  Data Stores link -> mLab MongoDB" ...
+      + Next is to create DB in Cloud (AWS, Azure, etc)
+      + Need to create free account on "mlab.com" website
+      + Go "mlab.com/home" --> 
+      + "create new btn -> AWS -> Sandbox (free) ->  create DB -> Create user for db -> get conStr -> add to config"
+        (use enviroment variable for db conStr)
 
     

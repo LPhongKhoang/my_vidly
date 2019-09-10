@@ -1,3 +1,5 @@
 {
-  "jwtSecretKey": "my_vidly_jwtSecretKey"
+  "jwtSecretKey": "my_vidly_jwtSecretKey",
+  "dbUsername": "my_vidly_db_user_name",
+  "dbUserPassword": "my_vidly_db_user_password"
 }

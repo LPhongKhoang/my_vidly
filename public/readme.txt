@@ -142,7 +142,7 @@ IX. Deployment
 X. Deploy to Heroku
     1. Prepare code for production
       + Use "helmet" lib to ... middleware bla bla
-      + Use "compression" lib to compress http req, res
+      + Use "compression" lib to compress http response
     2. Getting started with Heroku: download, use ">> heroku login" to login in cli
     3. Preparing the app for deployment
       + package > "scripts" > "start"="node index.js"

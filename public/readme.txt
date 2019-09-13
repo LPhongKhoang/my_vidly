@@ -50,6 +50,7 @@ II. Handling and Logging Error
     ==> still have to remember to call wrapper function in each route
     ==> improvement
   d. Use "express-async-errors" lib
+    + for: catching async error hapeens in express handler pipelines
     + load module in index.js (don't have to store result. Just load it)
     + It works like the naive implementation above. We still need part-b (error-middleware)
 2. Loggin to file

@@ -18,7 +18,7 @@ module.exports = function() {
   // });
 
   //======== We can try alternative approach using winston ========
-  // this will catch "uncaughtException" (lie process above)
+  // this will catch "uncaughtException" (like process above) and automatically stop whole app (process.exit(1))
   winston.handleExceptions(
     new winston.transports.File({ filename: "uncaughtException.log" })
   );

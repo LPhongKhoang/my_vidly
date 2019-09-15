@@ -1,3 +1,5 @@
 {"level":"info","message":"Server PK pro: started at port 3000","timestamp":"2019-09-15T16:08:27.624Z"}
 {"level":"info","message":"Server PK pro: started at port 3000","timestamp":"2019-09-15T16:12:40.370Z"}
 {"level":"info","message":"Connected to mongodb+srv://longpk_vidly_u1:pwvidly1@cluster0-iapls.mongodb.net/longpk_vidly?retryWrites=true&w=majority...","timestamp":"2019-09-15T16:12:41.592Z"}
+{"level":"info","message":"Server PK pro: started at port 3000","timestamp":"2019-09-15T16:20:23.379Z"}
+{"level":"info","message":"Connected to mongodb+srv://longpk_vidly_u1:pwvidly1@cluster0-iapls.mongodb.net/longpk_vidly?retryWrites=true&w=majority...","timestamp":"2019-09-15T16:20:24.332Z"}

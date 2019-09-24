@@ -3,3 +3,9 @@
 {"level":"info","message":"Connected to mongodb+srv://longpk_vidly_u1:pwvidly1@cluster0-iapls.mongodb.net/longpk_vidly?retryWrites=true&w=majority...","timestamp":"2019-09-15T16:12:41.592Z"}
 {"level":"info","message":"Server PK pro: started at port 3000","timestamp":"2019-09-15T16:20:23.379Z"}
 {"level":"info","message":"Connected to mongodb+srv://longpk_vidly_u1:pwvidly1@cluster0-iapls.mongodb.net/longpk_vidly?retryWrites=true&w=majority...","timestamp":"2019-09-15T16:20:24.332Z"}
+{"level":"info","message":"Server PK pro: started at port 3000","timestamp":"2019-09-24T03:56:14.805Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly...","timestamp":"2019-09-24T03:56:16.845Z"}
+{"level":"info","message":"Server PK pro: started at port 3000","timestamp":"2019-09-24T03:56:55.211Z"}
+{"level":"info","message":"Connected to mongodb://localhost/my_vidly...","timestamp":"2019-09-24T03:56:57.242Z"}
+{"level":"info","message":"Server PK pro: started at port 3000","timestamp":"2019-09-24T04:03:29.294Z"}
+{"level":"info","message":"Connected to mongodb+srv://longpk_vidly_u1:pwvidly1@cluster0-iapls.mongodb.net/longpk_vidly?retryWrites=true&w=majority...","timestamp":"2019-09-24T04:03:30.703Z"}

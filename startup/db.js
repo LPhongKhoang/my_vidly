@@ -5,7 +5,7 @@ const config = require("config");
 module.exports = function() {
   // Setup connection to MongoDB
   let db = config.get("db");
-  if(process.env.NODE_ENV === "production") {
+  if(["production", "development"].includes(process.env.NODE_ENV)) {
     const dbUsername = config.get("dbUsername");
     const dbUserPassword = config.get("dbUserPassword");
     db = db.replace("<username>", dbUsername);

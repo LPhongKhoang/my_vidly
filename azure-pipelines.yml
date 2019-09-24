@@ -16,6 +16,10 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    export NODE_ENV=development
+  displayName: 'set up development env'
+
+- script: |
     npm install
     npm run start
   displayName: 'npm install and start'

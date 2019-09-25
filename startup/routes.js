@@ -15,6 +15,10 @@ module.exports = function(app) {
   app.use(express.json()); // parse body data if it is json format
   app.use(express.urlencoded({extended:true})); // parse body data if it is form format
   app.use(express.static("public")); // for serve public asset files: images, css, readme.txt, ect
+  app.use("/", (req, res)=>{
+    const env = process.env;
+    res.send(env);
+  });
   app.use("/api/genres", genresRouter);
   app.use("/api/customers", customesRouter);
   app.use("/api/movies", movieRouter);

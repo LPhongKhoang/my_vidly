@@ -6,7 +6,7 @@ const { User } = require("../models/user");
 // Create Router 
 const router = express.Router();
 
-// handle http request
+// handle http request for login
 router.post("/", async (req, res) => {
   // validate request's body
   const { error } = validate(req.body);

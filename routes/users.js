@@ -14,6 +14,7 @@ router.get("/me", auth, async (req, res) => {
   res.send(user);
 });
 
+// Handle http request for Register form
 router.post("/", async (req, res) => {
   // validate request's body
   const { error } = validate(req.body);

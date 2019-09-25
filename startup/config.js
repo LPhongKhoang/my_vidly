@@ -7,10 +7,10 @@ module.exports = function() {
       throw new Error("FATAL ERROR: my_vidly_jwtSecretKey is not set"); // longpkprojwt@1
     }
     if (!config.get("dbUsername")) {
-      throw new Error("FATAL ERROR: my_vidly_db_user_name is not set"); // longpkprojwt@1
+      throw new Error("FATAL ERROR: my_vidly_db_user_name is not set");
     }
     if (!config.get("dbUserPassword")) {
-      throw new Error("FATAL ERROR: my_vidly_db_user_password is not set"); // longpkprojwt@1
+      throw new Error("FATAL ERROR: my_vidly_db_user_password is not set");
     }
   }
 };

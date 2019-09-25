@@ -1,6 +1,6 @@
 {
   "jwtSecretKey": "longpk_df_jwtSK",
   "db": "mongodb://localhost/my_vidly",
-  "dbUsername": "longpk_vidly_u1",
-  "dbUserPassword": "pwvidly1"
+  "dbUsername": "",
+  "dbUserPassword": ""
 }

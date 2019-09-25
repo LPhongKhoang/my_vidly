@@ -23,21 +23,28 @@ const userSchema = new mongoose.Schema({
     minlength: 5,
     maxlength: 1024
   },
-  isAdmin: Boolean
+  isAdmin: {
+    type: Boolean,
+    default: false
+  }
 });
 
 // Add methods to Schema ==> after that we can use as method of it's model
 userSchema.methods.generateAuthToken = function() {
-  const token = jwt.sign({_id: this._id, isAdmin: this.isAdmin}, config.get("jwtSecretKey"));
+  const token = jwt.sign(
+    {
+      _id: this._id,
+      isAdmin: this.isAdmin,
+      name: this.name,
+      email: this.email
+    },
+    config.get("jwtSecretKey")
+  );
   return token;
-}
-
+};
 
 // Create model
-const User = mongoose.model(
-  "User",
-  userSchema
-);
+const User = mongoose.model("User", userSchema);
 
 // function validate input
 function validateUser(user) {

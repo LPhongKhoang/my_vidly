@@ -33,8 +33,8 @@ router.post("/", async (req, res) => {
   await user.save();
   res
     .header("x-auth-token", token)
-    .header("access-control-expose-headers", "x-auth-token");
-  send(_.pick(user, ["_id", "name", "email"]));
+    .header("access-control-expose-headers", "x-auth-token")
+    .send(_.pick(user, ["_id", "name", "email"]));
 });
 
 module.exports = router;

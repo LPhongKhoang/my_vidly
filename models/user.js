@@ -38,7 +38,10 @@ userSchema.methods.generateAuthToken = function() {
       name: this.name,
       email: this.email
     },
-    config.get("jwtSecretKey")
+    config.get("jwtSecretKey"),
+    {
+      expiresIn: "1h"
+    }
   );
   return token;
 };
